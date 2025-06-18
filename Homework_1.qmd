@@ -12,7 +12,7 @@ execute:
 
 The **`mtcars`** **dataset** is a built-in dataset in R that provides information on various attributes of 32 car models, such as horsepower, weight, and fuel efficiency.
 
-In this mini-report, we explore how *horsepower (hp)* affects *fuel efficiency (miles per gallon or mpg)* using a simple scatter plot.
+In this mini-report, we explore how ***horsepower (hp)*** affects ***fuel efficiency (miles per gallon or mpg)*** using a simple scatter plot.
 
 ## Plot: Horsepower vs Miles per Gallon
 
