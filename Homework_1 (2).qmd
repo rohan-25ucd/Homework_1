@@ -1,0 +1,36 @@
+---
+title: "Homework 1 STAT40830-Adv Data Prog with R"
+author: "Poppad Rohan-24222745"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Introduction
+
+The **`mtcars`** dataset is a built-in dataset in R that provides information on various attributes of 32 car models, such as horsepower, weight, and fuel efficiency.
+
+In this mini-report, we explore how *horsepower (hp)* affects *fuel efficiency (miles per gallon or mpg)* using a simple scatter plot.
+
+## Plot: Horsepower vs Miles per Gallon
+
+```{r}
+# Load the dataset
+data(mtcars)
+
+# Create scatter plot
+plot(mtcars$hp, mtcars$mpg,
+     main = "Fuel Efficiency vs Horsepower",
+     xlab = "Horsepower (hp)",
+     ylab = "Miles per Gallon (mpg)",
+     col = "darkgreen",
+     pch = 16)
+```
+
+## Interpretation
+
+The scatter plot shows a **negative trend** — as *horsepower* increases, *miles per gallon* tends to decrease. This suggests that more powerful cars generally have lower fuel efficiency, which aligns with expectations.
+
+This quick visualization highlights how graphical summaries can reveal real-world trade-offs in car performance.
